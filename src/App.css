@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App > img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.App #app_form {
+  border-radius: 10px;
+  z-index: 1;
+  padding: 20px;
+  /* padding-bottom: 25px; */
+  bottom: 0;
+  position: fixed;
+  margin: 20px !important;
+  /* justify-content: center; */
+  width: 90%;
+  background-color: whitesmoke;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.App .app_formcontrole {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.app_input {
+  flex: 1;
+}
+
+.App.app_icon {
+  flex: 0;
+}
